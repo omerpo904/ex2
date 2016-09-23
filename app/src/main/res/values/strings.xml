@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="inti">this activity demonstrates the use of relative layout with two internal liner layouts</string>
+    <string name="intou">this activity demonstrates the use of table layout with spanning columns</string>
+    <string name="into">this activity demonstrates the use of Grid Layout with embedded image views</string>
+    <string name="in2">this activity demonstrates the use of Frame Layout with multiple views on top of each other</string>
+
+</resources>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="1000dp"
+        android:layout_height="wrap_content"
+        android:text="@string/intou"
+        android:id="@+id/tvIntro"
+        android:layout_alignParentTop="true" />
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:foregroundGravity="center_horizontal"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="47dp"
+        android:background="@android:color/holo_orange_light">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                style="@style/cellstyles"
+                android:textSize="18dp"
+                android:text="cell 2"
+                android:padding="18dip"
+                android:textColor="#000"
+                android:layout_column="7"
+                android:layout_weight="2"
+                android:foregroundGravity="center_horizontal"
+                android:layout_span="2" />
+
+            <TextView
+                style="@style/cellstyles"
+                android:textSize="18dp"
+                android:text="cell 1"
+                android:padding="18dip"
+                android:textColor="#000"
+                android:layout_column="10"
+                android:layout_weight="5"
+                android:foregroundGravity="center_horizontal"
+                android:layout_span="2" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:foregroundGravity="center_horizontal">
+
+            <TextView
+                style="@style/cellstyles"
+                android:id="@+id/TextView0"
+                android:text="cell 3"
+                android:layout_weight="1"
+                android:textColor="#000000"
+                android:padding="20dip"
+                android:layout_column="7"
+                android:foregroundGravity="center_horizontal" />
+
+            <TextView
+                style="@style/cellstyles"
+                android:id="@+id/Txt"
+                android:text="cell 4"
+                android:layout_weight="1"
+                android:textColor="#000000"
+                android:padding="20dip"
+                android:layout_column="8"
+                android:foregroundGravity="center_horizontal" />
+
+            <TextView
+                style="@style/cellstyles"
+                android:id="@+id/TextView4"
+                android:text="cell 5"
+                android:layout_weight="1"
+                android:textColor="#000000"
+                android:padding="20dip"
+                android:layout_column="10"
+                android:foregroundGravity="center_horizontal" />
+
+            <TextView
+                style="@style/cellstyles"
+                android:id="@+id/TextView"
+                android:text="cell 6"
+                android:layout_weight="1"
+                android:textColor="#000000"
+                android:padding="20dip"
+                android:layout_column="11"
+                android:foregroundGravity="center_horizontal" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:foregroundGravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/TextV0"
+                android:text="cell 7"
+                android:layout_weight="1"
+                style="@style/cellstyles"
+                android:textColor="#000000"
+                android:padding="20dip"
+                android:layout_column="7"
+                android:foregroundGravity="center_horizontal"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/Textv"
+                android:text="cell 8"
+                android:layout_weight="0"
+                style="@style/cellstyles"
+                android:textColor="#000000"
+                android:padding="20dip"
+                android:layout_column="8"
+                android:foregroundGravity="center_horizontal"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/Txtv"
+                android:text="cell 9"
+                android:layout_weight="1"
+                style="@style/cellstyles"
+                android:textColor="#000000"
+                android:padding="20dip"
+                android:layout_column="10"
+                android:layout_span="2"
+                />
+        </TableRow><![CDATA[
+
+        />
+    ]]>
+    </TableLayout>
+
+</RelativeLayout>

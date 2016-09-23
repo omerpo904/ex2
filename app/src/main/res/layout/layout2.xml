@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView
+        android:layout_width="1000dp"
+        android:layout_height="wrap_content"
+        android:text="@string/into"
+        android:id="@+id/tvIntro"
+        android:layout_alignParentTop="true" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gridLayout"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="170dp">
+
+
+        <ImageView
+            android:layout_width="123dp"
+            android:layout_height="123dp"
+            android:id="@+id/imageView"
+            android:layout_row="7"
+            android:layout_column="2"
+            android:src="@drawable/pidgin"
+            android:background="@drawable/border"
+            android:layout_alignBottom="@+id/gridLayout"
+            android:layout_alignParentEnd="true" />
+
+        <ImageView
+            android:layout_width="123dp"
+            android:layout_height="123dp"
+            android:id="@+id/imageView1"
+            android:layout_row="7"
+            android:layout_column="3"
+            android:src="@drawable/turtle"
+            android:background="@drawable/border"
+            android:layout_alignBottom="@+id/gridLayout"
+            android:layout_alignParentEnd="true" />
+
+        <ImageView
+            android:layout_width="123dp"
+            android:layout_height="123dp"
+            android:id="@+id/imageView2"
+            android:layout_row="6"
+            android:layout_column="2"
+            android:src="@drawable/cat"
+            android:background="@drawable/border"
+            android:layout_alignBottom="@+id/gridLayout"
+            android:layout_alignParentEnd="true" />
+
+        <ImageView
+            android:layout_width="123dp"
+            android:layout_height="123dp"
+            android:id="@+id/imageView3"
+            android:layout_row="6"
+            android:layout_column="3"
+            android:src="@drawable/twitter"
+            android:background="@drawable/border"
+            android:layout_alignBottom="@+id/gridLayout"
+            android:layout_alignParentEnd="true" />
+
+    </GridLayout>
+
+</RelativeLayout>
