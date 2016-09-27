@@ -4,4 +4,7 @@
         activity life-cycle callback methods,\n
         views reerencing,\n
         and on-click handler</string>
+    <string name="emptyname">[%1$d] wait! you should first enter yor name above</string>
+    <string name="name">[%1$d] welcome %2$s ,this is your first \n java coding experience in android. \n congratulation!!!</string>
+
 </resources>
