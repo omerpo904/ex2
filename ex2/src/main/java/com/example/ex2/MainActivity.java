@@ -9,7 +9,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
-
+    final String Key_count="count";
     int clickCount=0;
 
     @Override
@@ -50,12 +50,15 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onRestoreInstanceState(Bundle savedInstanceState) {
         Log.i(MyApp.MYTAG,"Main:onRestoreInstance event");
+        if(savedInstanceState!=null)
+            this.clickCount=savedInstanceState.getInt(Key_count,0);
         super.onRestoreInstanceState(savedInstanceState);
     }
 
     @Override
     protected void onSaveInstanceState(Bundle outState) {
         Log.i(MyApp.MYTAG,"Main:onSaveInstance event");
+        outState.putInt(Key_count,this.clickCount);
         super.onSaveInstanceState(outState);
     }
 
